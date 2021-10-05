@@ -1,0 +1,128 @@
+[
+  {
+    "latitud" : 40.40934544720297,
+    "longitud" : -3.760961529100968,
+    "tituloESP": "ZOO ACUARIUM",
+    "tituloENG": "ZOO ACUARIUM",
+    "tipo": "O"
+  },
+  {
+    "latitud" : 40.40849835437475,
+    "longitud" : -3.762409049782553,
+    "tituloESP": "LOBO GRIS",
+    "tituloENG": "ARCTIC WOLF",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.408625146152005,
+    "longitud" : -3.762026685555514,
+    "tituloESP": "LINCE IBÉRICO",
+    "tituloENG": "IBERIAN LYNX",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40979817802131,
+    "longitud" : -3.762507313141042,
+    "tituloESP": "PANDAS GIGANTES",
+    "tituloENG": "GIANTS PANDAS",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40996102019949,
+    "longitud" : -3.7642011468175713,
+    "tituloESP": "BISONTE EUROPEO",
+    "tituloENG": "EUROPEAN BISON",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.4099994288488,
+    "longitud" : -3.764179279932559,
+    "tituloESP": "OSO HORMIGUERO",
+    "tituloENG": "ANT-EATER",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.410141934189,
+    "longitud" : -3.76184139750137,
+    "tituloESP": "TAPIR AMAZÓNICO",
+    "tituloENG": "SOUTH AMERICAN TAPIR",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.41083223870407,
+    "longitud" : -3.7646630610279885,
+    "tituloESP": "TIGRE DE BENGALA",
+    "tituloENG": "BENGAL TIGER",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.410757461549984,
+    "longitud" : -3.761478183296418,
+    "tituloESP": "PINGÜINO DE JACKASS",
+    "tituloENG": "JACKASS PENGUIN",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.407702082752195,
+    "longitud" : -3.7645253179396803,
+    "tituloESP": "TIBURÓN GRIS",
+    "tituloENG": "SANDBAR SHARK",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40835481437377,
+    "longitud" : -3.7655280871783168,
+    "tituloESP": "IBIS SAGRADO",
+    "tituloENG": "SACRED IBIS",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40983709060606,
+    "longitud" : -3.762526951556348,
+    "tituloESP": "LORIS ARCO IRIS",
+    "tituloENG": "RAINBOW LORIKEET",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40836032041865,
+    "longitud" : -3.7653502618756445,
+    "tituloESP": "GUACAMAYO ROJO DE ALAS VERDES",
+    "tituloENG": "RED-AND-GREEN MACAW",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40931155147207,
+    "longitud" : -3.7652958827811895,
+    "tituloESP": "NUTRIAS GIGANTES DE AMAZONAS",
+    "tituloENG": "GIANT OTTER",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.409307563472815,
+    "longitud" : -3.7665212291971546,
+    "tituloESP": "RINOCERONTE BLANCO",
+    "tituloENG": "WHITE RHINO",
+    "tipo": "A"
+  },
+  {
+    "latitud" : 40.40731113824084,
+    "longitud" : -3.7636985765881064,
+    "tituloESP": "RESTAURANTE KIBANDA",
+    "tituloENG": "KIBANDA RESTAURANT",
+    "tipo": "R"
+  },
+  {
+    "latitud" : 40.409154919979166,
+    "longitud" : -3.7651475920725956,
+    "tituloESP": "RESTAURANTE VIRUNGA",
+    "tituloENG": "KIBANVIRUNGADA RESTAURANT",
+    "tipo": "R"
+  },
+  {
+    "latitud" : 40.40952582191747,
+    "longitud" : -3.7618174292304265,
+    "tituloESP": "RESTAURANTE PRINCIPAL",
+    "tituloENG": "MAIN RESTAURANT",
+    "tipo": "R"
+  }
+]

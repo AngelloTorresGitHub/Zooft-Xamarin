@@ -1,0 +1,7 @@
+azul            #2E97C2
+rojo            #EA5924
+blanco          #F0F6F6
+negro           #212121
+negroOscuro     #141414
+negroMedio      #333333
+negroClaro      #6E6E6E
