@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZooftVisit.MainPage"
+             BackgroundColor="#212121">
+    <ScrollView>
+        <StackLayout StyleClass="container">
+
+            <StackLayout StyleClass="header">
+                <Image Source="logoZOOFT.png" />
+            </StackLayout>
+
+            <StackLayout StyleClass="content"
+                         HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+
+                <StackLayout>
+                    <ImageButton Source="Escanear.png" 
+                                 StyleClass="button" 
+                                 WidthRequest="100" />
+                    
+                    <Label StyleClass="buttonText, title"
+                           Text="Escanear el Código QR"
+                           FontAttributes="Bold"
+                           HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <ImageButton Source="Localizar.png"
+                                 StyleClass="button" 
+                                 WidthRequest="100" />
+
+                    <Label StyleClass="buttonText, title"
+                           Text="Localizar"
+                           FontAttributes="Bold"
+                           HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <ImageButton Source="Salir.png"
+                                 StyleClass="button"
+                                 WidthRequest="100" />
+
+                    <Label StyleClass="buttonText, title"
+                           Text="Salir"
+                           FontAttributes="Bold"
+                           HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                
+
+                
+            </StackLayout>
+
+            <StackLayout StyleClass="footer"
+                         Orientation="Vertical"
+                         VerticalOptions="EndAndExpand">
+
+                <Label StyleClass="footerText, bold, title"
+                       Text="Prueba"
+                       FontAttributes="Bold"/>
+                <Label StyleClass="footerText, mayus, title"
+                       Text="Prueba"/>
+                <Label StyleClass="footerText, mayus, title"
+                       Text="Prueba"/>
+
+            </StackLayout>
+            
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

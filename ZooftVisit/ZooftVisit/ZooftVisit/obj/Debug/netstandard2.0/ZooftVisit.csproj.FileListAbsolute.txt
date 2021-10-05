@@ -1,0 +1,16 @@
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\bin\Debug\netstandard2.0\ZooftVisit.deps.json
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\bin\Debug\netstandard2.0\ZooftVisit.dll
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\bin\Debug\netstandard2.0\ref\ZooftVisit.dll
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\bin\Debug\netstandard2.0\ZooftVisit.pdb
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.csproj.AssemblyReference.cache
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.GeneratedMSBuildEditorConfig.editorconfig
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\Styles\Style.css.g.cs
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.AssemblyInfoInputs.cache
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.AssemblyInfo.cs
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.csproj.CoreCompileInputs.cache
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\XamlC.stamp
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.dll
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ref\ZooftVisit.dll
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.pdb
