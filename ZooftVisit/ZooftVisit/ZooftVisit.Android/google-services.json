@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "499952169984",
+    "firebase_url": "https://zooft-10490-default-rtdb.firebaseio.com",
+    "project_id": "zooft-10490",
+    "storage_bucket": "zooft-10490.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499952169984:android:21d43e0c1b4e6080ca54e5",
+        "android_client_info": {
+          "package_name": "com.companyname.zooftvisit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC11BvwRh8cvaeUn-_u6-Dqi5rwmhu0_Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499952169984:android:01057652b056817bca54e5",
+        "android_client_info": {
+          "package_name": "com.example.zooft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC11BvwRh8cvaeUn-_u6-Dqi5rwmhu0_Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499952169984:android:5f2a3b576c90b6acca54e5",
+        "android_client_info": {
+          "package_name": "com.example.zooftadmon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC11BvwRh8cvaeUn-_u6-Dqi5rwmhu0_Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499952169984-9j4hqi9ism2t7v3m9825hhvd5qs9jt28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

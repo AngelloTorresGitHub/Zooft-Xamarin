@@ -15,10 +15,11 @@
                          VerticalOptions="CenterAndExpand">
 
                 <StackLayout>
-                    <ImageButton Source="Escanear.png" 
+                    <ImageButton x:Name="btnEscaner" 
+                                 Source="Escanear.png" 
                                  StyleClass="button" 
                                  WidthRequest="100" />
-                    
+
                     <Label StyleClass="buttonText, title"
                            Text="Escanear el Código QR"
                            FontAttributes="Bold"
@@ -26,7 +27,7 @@
                 </StackLayout>
 
                 <StackLayout>
-                    <ImageButton Source="Localizar.png"
+                    <ImageButton x:Name="btnLocalizar" Source="Localizar.png"
                                  StyleClass="button" 
                                  WidthRequest="100" />
 
@@ -37,7 +38,8 @@
                 </StackLayout>
 
                 <StackLayout>
-                    <ImageButton Source="Salir.png"
+                    <ImageButton x:Name="btnSalir" 
+                                 Source="Salir.png"
                                  StyleClass="button"
                                  WidthRequest="100" />
 
@@ -46,9 +48,10 @@
                            FontAttributes="Bold"
                            HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
-                
 
-                
+                <Label x:Name="lblPrueba"
+                       TextColor="White"/>
+
             </StackLayout>
 
             <StackLayout StyleClass="footer"
@@ -56,12 +59,12 @@
                          VerticalOptions="EndAndExpand">
 
                 <Label StyleClass="footerText, bold, title"
-                       Text="Prueba"
+                       Text="Diseñado por:"
                        FontAttributes="Bold"/>
                 <Label StyleClass="footerText, mayus, title"
-                       Text="Prueba"/>
+                       Text="Angello Torres De la torre"/>
                 <Label StyleClass="footerText, mayus, title"
-                       Text="Prueba"/>
+                       Text="Copyright -2021"/>
 
             </StackLayout>
             
