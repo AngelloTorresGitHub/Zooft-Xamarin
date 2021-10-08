@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ZooftVisit.Models
 {
-    class Animal
+    public class Animal
     {
         [JsonProperty("id")]
         public int Id { get; set; }
@@ -17,37 +17,37 @@ namespace ZooftVisit.Models
         public String Nombre { get; set; }
 
         [JsonProperty("nombreEsp")]
-        public String NombreEsp { get; set; }
+        public String EspNombre { get; set; }
 
         [JsonProperty("nombreIng")]
-        public String NombreIng { get; set; }
+        public String IngNombre { get; set; }
 
         [JsonProperty("imagen")]
         public String Imagen { get; set; }
 
         [JsonProperty("especieEsp")]
-        public String EspecieEsp { get; set; }
+        public String EspEspecie { get; set; }
 
         [JsonProperty("especieIng")]
-        public String EspecieIng { get; set; }
+        public String IngEspecie { get; set; }
 
         [JsonProperty("imgEspecie")]
         public String ImgEspecie { get; set; }
 
         [JsonProperty("alimentacionEsp")]
-        public String AlimentacionEsp { get; set; }
+        public String EspAlimentacion { get; set; }
 
         [JsonProperty("alimentacionIng")]
-        public String AlimentacionIng { get; set; }
+        public String IngAlimentacion { get; set; }
 
         [JsonProperty("imgAlimentacion")]
         public String ImgAlimentacion { get; set; }
 
         [JsonProperty("regionEsp")]
-        public String RegionEsp { get; set; }
+        public String EspRegion { get; set; }
 
         [JsonProperty("regionIng")]
-        public String RegionIng { get; set; }
+        public String IngRegion { get; set; }
 
         [JsonProperty("imgRegion")]
         public String ImgRegion { get; set; }
@@ -59,32 +59,31 @@ namespace ZooftVisit.Models
         public String Longitud { get; set; }
 
         [JsonProperty("conservacionEsp")]
-        public String ConservacionEsp { get; set; }
+        public String EspConservacion { get; set; }
 
         [JsonProperty("conservacionIng")]
-        public String ConservacionIng { get; set; }
+        public String IngConservacion { get; set; }
 
         [JsonProperty("imgConservacion")]
         public String ImgConservacion { get; set; }
 
         [JsonProperty("descripcionEsp")]
-        public String DescripcionEsp { get; set; }
+        public String EspDescripcion { get; set; }
 
         [JsonProperty("descripcionIng")]
-        public String DescripcionIng { get; set; }
+        public String IngDescripcion { get; set; }
 
         [JsonProperty("costumbresEsp")]
-        public String CostumbresEsp { get; set; }
+        public String EspCostumbres { get; set; }
 
         [JsonProperty("costumbresIng")]
-        public String CostumbresIng { get; set; }
+        public String IngCostumbres { get; set; }
 
         [JsonProperty("sabiasEsp")]
-        public String SabiasEsp { get; set; }
+        public String EspSabias { get; set; }
 
         [JsonProperty("sabiasIng")]
-        public String SabiasIng { get; set; }
-
+        public String IngSabias { get; set; }
 
     }
 }

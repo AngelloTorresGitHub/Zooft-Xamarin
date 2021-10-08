@@ -24,4 +24,10 @@
   <ItemGroup>
     <Folder Include="Views\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AnimalPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
 </Project>

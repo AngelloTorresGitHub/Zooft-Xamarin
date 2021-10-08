@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZooftVisit.AnimalPage"
+             BackgroundColor="#212121">
+    
+
+
+    <ScrollView>
+
+        <StackLayout>
+            <!--Menu con botones Home e incidencia-->
+            <StackLayout BackgroundColor="#141414"
+                         Orientation="Horizontal" 
+                         HeightRequest="100">
+
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="Home.png"
+                                 WidthRequest="100"
+                                 Padding="10"
+                                 BackgroundColor="#141414"/>
+                </StackLayout>
+
+                <StackLayout HorizontalOptions="CenterAndExpand">
+                    <ImageButton Source="Incidencia.png"
+                                 WidthRequest="100"
+                                 Padding="10"
+                                 BackgroundColor="#141414"/>
+                </StackLayout>
+
+            </StackLayout>
+
+            <!--Contenido del animal-->
+            <StackLayout StyleClass="contentAnimal"
+                         Orientation="Vertical">
+
+                <Label x:Name="lblAnimal"                       
+                       TextColor="#EA5924"
+                       TextTransform="Uppercase"
+                       Padding="10, 20, 0, 20"
+                       FontFamily="Roboto"
+                       FontAttributes="Bold"
+                       FontSize="Title"/>
+
+                <StackLayout Padding="0, 50, 0, 10">
+
+                    <Image x:Name="ImgAnimal"
+                           Scale="1.5"/>
+
+                </StackLayout>
+
+                <!--Cuadro informativo con stackLayout-->
+                <StackLayout Orientation="Vertical"
+                             Padding="0, 60, 0, 0">
+
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="CenterAndExpand">
+
+                        <!--Especie-->
+                        <StackLayout Orientation="Vertical">
+
+                            <Image x:Name="ImgEspecie"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblEspecie"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                        <!--Alimentacion-->
+                        <StackLayout Orientation="Vertical">
+
+                            <Image x:Name="ImgAlimentacion"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblAlimentacion"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                        <!--Region-->
+                        <StackLayout Orientation="Vertical">
+
+                            <Image x:Name="ImgRegion"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblRegion"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="CenterAndExpand">
+
+                        <!--Peso-->
+                        <StackLayout Orientation="Vertical">
+
+                            <Image x:Name="ImgPeso"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblPeso"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                        <!--Longitud-->
+                        <StackLayout Orientation="Vertical">
+
+
+                            <Image x:Name="ImgLongitud"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblLongitud"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                        <!--Conservacion-->
+                        <StackLayout Orientation="Vertical">
+
+                            <Image x:Name="ImgConservacion"
+                                   Scale="0.5"
+                                   HorizontalOptions="Center"/>
+                            <Label x:Name="lblConservacion"
+                                   FontFamily="Roboto"
+                                   FontAttributes="Bold"
+                                   TextColor="#F0F6F6"
+                                   HorizontalOptions="Center"/>
+
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+                
+                <!--Info Animal-->
+
+                <Label x:Name="lblTitleDescripcion"
+                       StyleClass="titleAnimal"
+                       FontAttributes="Bold"/>
+                <Label x:Name="lblDescripcion"
+                       StyleClass="text"/>
+
+                <Label x:Name="lblTitleCostumbres"
+                       StyleClass="titleAnimal"
+                       FontAttributes="Bold" />
+                <Label x:Name="lblCostumbres"
+                       StyleClass="text"/>
+
+                <Label x:Name="lblTitleSabias"
+                       StyleClass="titleAnimal"
+                       FontAttributes="Bold"/>
+                <Label x:Name="lblSabias"
+                       StyleClass="text"/>
+
+            </StackLayout>
+
+        </StackLayout>
+
+
+
+    </ScrollView>
+
+</ContentPage>

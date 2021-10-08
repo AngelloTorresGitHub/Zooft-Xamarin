@@ -8,11 +8,11 @@ using ZooftVisit.ViewModels.Base;
 
 namespace ZooftVisit.ViewModels
 {
-    class AnimalViewModel: ViewModelBase
+  public class AnimalViewModel: ViewModelBase
     {
         HelperAnimal helper = new HelperAnimal();
 
-        public Animal _Animal;
+        private Animal _Animal;
 
         public Animal Animal
         {
@@ -27,16 +27,14 @@ namespace ZooftVisit.ViewModels
             }
         }
 
-        public Animal GetAnimal(String url)
+        public void GetAnimal(String url)
         {
-            Animal animal = new Animal();
             Task.Run(async () =>
             {
-                animal = await helper.GetAnimal(url);
+                Animal animal = await helper.GetAnimal(url);
                 this.Animal = animal;
             });
 
-            return animal;
         }
     }
 }

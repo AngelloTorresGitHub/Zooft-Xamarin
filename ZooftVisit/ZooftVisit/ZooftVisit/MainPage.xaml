@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ZooftVisit.MainPage"
              BackgroundColor="#212121">
+
     <ScrollView>
         <StackLayout StyleClass="container">
 
@@ -21,7 +22,7 @@
                                  WidthRequest="100" />
 
                     <Label StyleClass="buttonText, title"
-                           Text="Escanear el Código QR"
+                           x:Name="lblEscaner"
                            FontAttributes="Bold"
                            HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
@@ -32,7 +33,7 @@
                                  WidthRequest="100" />
 
                     <Label StyleClass="buttonText, title"
-                           Text="Localizar"
+                           x:Name="lblLocalizar"
                            FontAttributes="Bold"
                            HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
@@ -44,13 +45,10 @@
                                  WidthRequest="100" />
 
                     <Label StyleClass="buttonText, title"
-                           Text="Salir"
+                           x:Name="lblSalir"
                            FontAttributes="Bold"
                            HorizontalOptions="CenterAndExpand"/>
                 </StackLayout>
-
-                <Label x:Name="lblPrueba"
-                       TextColor="White"/>
 
             </StackLayout>
 
@@ -59,7 +57,7 @@
                          VerticalOptions="EndAndExpand">
 
                 <Label StyleClass="footerText, bold, title"
-                       Text="Diseñado por:"
+                       x:Name="lblDiseng"
                        FontAttributes="Bold"/>
                 <Label StyleClass="footerText, mayus, title"
                        Text="Angello Torres De la torre"/>
