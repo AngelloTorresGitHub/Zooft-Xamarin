@@ -29,7 +29,8 @@
 }
 
 .title {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
+    ;
 }
 
 .footerText {
@@ -54,6 +55,7 @@
 
 .nav {
     background-color: #141414;
+    position: static;
 }
 
 .btnNav {
@@ -69,13 +71,13 @@
 .titleAnimal {
     color: #EA5924;
     text-transform: uppercase;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: large;
     padding: 10, 20, 0, 20;
 }
 
 .text {
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     color: #F0F6F6;
     padding: 10, 0, 10, 40;
 }
@@ -85,6 +87,6 @@
 }
 
 .infoAnimal {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     color: #F0F6F6;
 }

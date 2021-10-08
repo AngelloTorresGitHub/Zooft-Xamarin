@@ -30,6 +30,14 @@ namespace ZooftVisit
             cargarObjeto(animalSelect);
 
             cargarContenido();
+
+            btnHome.Clicked += BtnHome_Clicked;
+        }
+
+        private void BtnHome_Clicked(object sender, EventArgs e)
+        {
+            NavigationPage mainPage = new NavigationPage(new MainPage());
+            Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(mainPage));
         }
 
         private void cargarObjeto(AnimalViewModel animalSelect)

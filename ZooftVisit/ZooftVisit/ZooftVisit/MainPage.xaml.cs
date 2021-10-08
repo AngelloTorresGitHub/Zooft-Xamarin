@@ -23,7 +23,7 @@ namespace ZooftVisit
 
             SeleccionarIdioma();
 
-            this.btnEscaner.Clicked += BtnEscaner_Clicked;
+            btnEscaner.Clicked += BtnEscaner_Clicked;
         }
 
         private void SeleccionarIdioma()
@@ -48,23 +48,22 @@ namespace ZooftVisit
 
         private async void BtnEscaner_Clicked(object sender, EventArgs e)
         {
-            try {
-                var scanner = new ZXing.Mobile.MobileBarcodeScanner();
-                scanner.TopText = "Escanea el Código QR";
-                scanner.BottomText = "Escanea el Código QR";
+            try
+            {
+                var scanner = new ZXing.Mobile.MobileBarcodeScanner
+                {
+                    TopText = "Escanea el Código QR",
+                    BottomText = "Escanea el Código QR"
+                };
 
                 var resultado = await scanner.Scan();
 
-                if (resultado != null) {
-
-                    //AnimalViewModel animalSelect = new AnimalViewModel();
+                if (resultado != null) 
+                {
                     animalSelect.GetAnimal(resultado.Text);
 
                     NavigationPage animalPage = new NavigationPage(new AnimalPage(animalSelect));
                     Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(animalPage));
-
-                    // Limpia el ViewModel
-                    //animalSelect = null; 
                 }
             }
             catch (Exception ex)
