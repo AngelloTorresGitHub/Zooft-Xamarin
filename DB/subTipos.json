@@ -1,0 +1,78 @@
+[ {
+  "departamento" : "Limpieza",
+  "descripcionEsp" : "Papelera llena",
+  "descripcionIng" : "Bin full",
+  "id" : 1,
+  "id_departamento" : 1,
+  "nivel" : "BJO"
+}, {
+  "departamento" : "Limpieza",
+  "descripcionEsp" : "Basura en espacio público",
+  "descripcionIng" : "Garbage in public space",
+  "id" : 2,
+  "id_departamento" : 1,
+  "nivel" : "BJO"
+}, {
+  "departamento" : "Limpieza",
+  "descripcionEsp" : "Desechos corporales",
+  "descripcionIng" : "Bodily waste",
+  "id" : 3,
+  "id_departamento" : 1,
+  "nivel" : "MDO"
+}, {
+  "departamento" : "Mantenimiento",
+  "descripcionEsp" : "Inmobiliario Dañada/Defectuosa",
+  "descripcionIng" : "Damaged / Defective Real Estate",
+  "id" : 4,
+  "id_departamento" : 2,
+  "nivel" : "MDO"
+}, {
+  "departamento" : "Mantenimiento",
+  "descripcionEsp" : "Cercas/Jaulas Dañada/Defectuosa",
+  "descripcionIng" : "Damaged / defective fences / cages",
+  "id" : 5,
+  "id_departamento" : 2,
+  "nivel" : "MDO"
+}, {
+  "departamento" : "Mantenimiento",
+  "descripcionEsp" : "Iluminación Dañada/Defectuosa",
+  "descripcionIng" : "Damaged / Defective Lighting",
+  "id" : 6,
+  "id_departamento" : 2,
+  "nivel" : "BJO"
+}, {
+  "departamento" : "Mantenimiento",
+  "descripcionEsp" : "Fuentes de agua Dañada/Defectuosa",
+  "descripcionIng" : "Damaged / Defective Water Fountains",
+  "id" : 7,
+  "id_departamento" : 2,
+  "nivel" : "BJO"
+}, {
+  "departamento" : "Cuidado Animal",
+  "descripcionEsp" : "Objeto extraño en recinto del animal",
+  "descripcionIng" : "Foreign object in the animal's enclosure",
+  "id" : 8,
+  "id_departamento" : 3,
+  "nivel" : "MDO"
+}, {
+  "departamento" : "Cuidado Animal",
+  "descripcionEsp" : "Comportamiento extraño del animal",
+  "descripcionIng" : "Strange behavior of the animal",
+  "id" : 9,
+  "id_departamento" : 3,
+  "nivel" : "ALT"
+}, {
+  "departamento" : "Seguridad",
+  "descripcionEsp" : "Comportamiento incívico de visitante",
+  "descripcionIng" : "Uncivil visitor behavior",
+  "id" : 10,
+  "id_departamento" : 4,
+  "nivel" : "ALT"
+}, {
+  "departamento" : "Sanitarios",
+  "descripcionEsp" : "Atención sanitaria",
+  "descripcionIng" : "Health care",
+  "id" : 11,
+  "id_departamento" : 5,
+  "nivel" : "ALT"
+} ]

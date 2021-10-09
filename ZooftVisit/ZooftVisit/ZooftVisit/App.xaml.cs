@@ -10,7 +10,9 @@ namespace ZooftVisit
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            var homePage = new MainPage();
+            var navPage = new NavigationPage(homePage);
+            this.MainPage = navPage;
         }
 
         protected override void OnStart()

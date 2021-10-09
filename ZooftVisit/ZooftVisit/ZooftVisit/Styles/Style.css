@@ -11,7 +11,7 @@
 */
 
 .container {
-    padding: 0, 40, 0, 0;
+    padding: 0, 10, 0, 0;
 }
 
 .header {
@@ -72,7 +72,6 @@
     color: #EA5924;
     text-transform: uppercase;
     font-family: "Roboto", sans-serif;
-    font-size: large;
     padding: 10, 20, 0, 20;
 }
 
@@ -80,10 +79,6 @@
     font-family: "Lato", sans-serif;
     color: #F0F6F6;
     padding: 10, 0, 10, 40;
-}
-
-.imgAnimal {
-    Padding: 0, 60, 0, 10;
 }
 
 .infoAnimal {

@@ -3,29 +3,30 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ZooftVisit.AnimalPage"
              BackgroundColor="#212121">
-    
-
-
+   
     <ScrollView>
 
         <StackLayout>
             <!--Menu con botones Home e incidencia-->
             <StackLayout StyleClass="nav"
                          Orientation="Horizontal" 
-                         HeightRequest="100">
+                         HeightRequest="100"
+                         VerticalOptions="CenterAndExpand">
 
-                <StackLayout HorizontalOptions="CenterAndExpand">
+                <StackLayout HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <ImageButton x:Name="btnHome" 
                                  StyleClass="btnNav"  
                                  Source="Home.png"
-                                 WidthRequest="100" />
+                                 WidthRequest="80" />
                 </StackLayout>
 
-                <StackLayout HorizontalOptions="CenterAndExpand">
+                <StackLayout HorizontalOptions="CenterAndExpand"
+                             VerticalOptions="CenterAndExpand">
                     <ImageButton x:Name="btnIncidencias" 
                                  StyleClass="btnNav" 
                                  Source="Incidencia.png"
-                                 WidthRequest="100" />
+                                 WidthRequest="80" />
                 </StackLayout>
 
             </StackLayout>
@@ -36,28 +37,35 @@
 
                 <Label x:Name="lblAnimal" 
                        StyleClass="titleAnimal"
-                       FontAttributes="Bold" />
+                       FontAttributes="Bold"
+                       FontSize="Title"/>
 
-                <StackLayout Padding="0, 50, 0, 10">
+                <StackLayout>
 
                     <Image x:Name="ImgAnimal"
-                           Scale="1.5"/>
+                           Aspect="AspectFill"
+                           HeightRequest="200"/>
 
                 </StackLayout>
 
                 <!--Cuadro informativo con stackLayout-->
                 <StackLayout Orientation="Vertical"
-                             Padding="0, 60, 0, 0">
+                             Padding="0, 20, 0, 0">
 
                     <!--Primer renglon-->
-                    <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Horizontal"
+                                 HorizontalOptions="CenterAndExpand"
+                                 >
 
                         <!--Especie-->
-                        <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical"
+                                     Padding="10">
 
                             <Image x:Name="ImgEspecie"
-                                   Scale="0.5"
-                                   HorizontalOptions="Center"/>
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
+                                   HorizontalOptions="Center"
+                                   />
                             <Label x:Name="lblEspecie"
                                    StyleClass="infoAnimal"
                                    FontAttributes="Bold"
@@ -66,10 +74,12 @@
                         </StackLayout>
 
                         <!--Alimentacion-->
-                        <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical"
+                                     Padding="10">
 
                             <Image x:Name="ImgAlimentacion"
-                                   Scale="0.5"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
                                    HorizontalOptions="Center"/>
                             <Label x:Name="lblAlimentacion"
                                    StyleClass="infoAnimal"
@@ -79,10 +89,12 @@
                         </StackLayout>
 
                         <!--Region-->
-                        <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical"
+                                     Padding="10">
 
                             <Image x:Name="ImgRegion"
-                                   Scale="0.5"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
                                    HorizontalOptions="Center"/>
                             <Label x:Name="lblRegion"
                                    StyleClass="infoAnimal"
@@ -93,15 +105,17 @@
 
                     </StackLayout>
 
-                    <!--Primer renglon-->
+                    <!--Segundo Renglon-->
                     <StackLayout Orientation="Horizontal"
                                  HorizontalOptions="CenterAndExpand">
 
                         <!--Peso-->
-                        <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Vertical"
+                                     Padding="10">
 
                             <Image x:Name="ImgPeso"
-                                   Scale="0.5"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
                                    HorizontalOptions="Center"/>
                             <Label x:Name="lblPeso"
                                    StyleClass="infoAnimal"
@@ -112,10 +126,12 @@
 
                         <!--Longitud-->
                         <StackLayout Orientation="Vertical"
-                                     HorizontalOptions="Center">
+                                     HorizontalOptions="Center"
+                                     Padding="10">
 
                             <Image x:Name="ImgLongitud"
-                                   Scale="0.5"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
                                    HorizontalOptions="Center"/>
                             <Label x:Name="lblLongitud"
                                    StyleClass="infoAnimal"
@@ -126,10 +142,12 @@
 
                         <!--Conservacion-->
                         <StackLayout Orientation="Vertical"
-                                     HorizontalOptions="End">
+                                     HorizontalOptions="End"
+                                     Padding="10">
 
                             <Image x:Name="ImgConservacion"
-                                   Scale="0.5"
+                                   Aspect="AspectFill"
+                                   HeightRequest="100"
                                    HorizontalOptions="Center"/>
                             <Label x:Name="lblConservacion"
                                    StyleClass="infoAnimal"
@@ -146,21 +164,27 @@
 
                 <Label x:Name="lblTitleDescripcion"
                        StyleClass="titleAnimal"
-                       FontAttributes="Bold"/>
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
                 <Label x:Name="lblDescripcion"
-                       StyleClass="text"/>
+                       StyleClass="text"
+                       FontSize="Body"/>
 
                 <Label x:Name="lblTitleCostumbres"
                        StyleClass="titleAnimal"
-                       FontAttributes="Bold" />
+                       FontAttributes="Bold" 
+                       FontSize="Large"/>
                 <Label x:Name="lblCostumbres"
-                       StyleClass="text"/>
+                       StyleClass="text"
+                       FontSize="Body"/>
 
                 <Label x:Name="lblTitleSabias"
                        StyleClass="titleAnimal"
-                       FontAttributes="Bold"/>
+                       FontAttributes="Bold"
+                       FontSize="Large"/>
                 <Label x:Name="lblSabias"
-                       StyleClass="text"/>
+                       StyleClass="text"
+                       FontSize="Body"/>
 
             </StackLayout>
 

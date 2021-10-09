@@ -13,7 +13,7 @@ using ZooftVisit.ViewModels;
 
 namespace ZooftVisit
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AnimalPage : ContentPage
     {
         private AnimalViewModel animalSelect;
@@ -25,19 +25,28 @@ namespace ZooftVisit
         public AnimalPage(AnimalViewModel animalSelect)
         {
             InitializeComponent();
+
             this.animalSelect = animalSelect;
 
             cargarObjeto(animalSelect);
 
             cargarContenido();
 
-            btnHome.Clicked += BtnHome_Clicked;
+            btnHome.Clicked += BtnHome_ClickedAsync;
+            btnIncidencias.Clicked += BtnIncidencias_Clicked;
         }
 
-        private void BtnHome_Clicked(object sender, EventArgs e)
+        private async void BtnIncidencias_Clicked(object sender, EventArgs e)
         {
-            NavigationPage mainPage = new NavigationPage(new MainPage());
-            Device.BeginInvokeOnMainThread(async () => await Navigation.PushAsync(mainPage));
+            var incidenciasPage = new IncidenciasPage(animal);
+
+            await this.Navigation.PushAsync(incidenciasPage);
+
+        }
+
+        private async void BtnHome_ClickedAsync(object sender, EventArgs e)
+        {
+            await this.Navigation.PopAsync();
         }
 
         private void cargarObjeto(AnimalViewModel animalSelect)
@@ -121,6 +130,7 @@ namespace ZooftVisit
             }
         }
 
+        // Convierte el texto en base64 en imágenes
         public ImageSource Base64StringToImageSource(string source)
         {
             var byteArray = Convert.FromBase64String(source);

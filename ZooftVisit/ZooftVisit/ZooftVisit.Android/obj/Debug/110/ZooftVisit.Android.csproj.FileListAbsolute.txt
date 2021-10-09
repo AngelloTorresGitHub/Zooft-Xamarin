@@ -636,6 +636,6 @@ C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Andro
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\System.Reactive.dll
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\System.Runtime.InteropServices.dll
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\jl\6ca4ae4e-824d-450e-8a9a-4fe3ac509aea.jar
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\752c977a-9f29-4e1f-86c6-2fc59cf198c0.cfg
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\aaf0206c-a713-4134-a9fa-79d9706a0c76.txt
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\jl\271af87e-4b76-4950-a8c9-08891f18fae5.jar
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\18787f3a-638c-44e1-94d0-1434b41f8154.cfg
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\ff6a3a21-4fec-4839-b7f4-f7d680ec3d34.txt

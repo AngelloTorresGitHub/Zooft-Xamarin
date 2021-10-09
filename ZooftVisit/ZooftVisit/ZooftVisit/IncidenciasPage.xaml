@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ZooftVisit.IncidenciasPage"
+             Background="#212121">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Label x:Name="lblTitleIncidencia" 
+                       StyleClass="titleAnimal"
+                       FontAttributes="Bold"
+                       FontSize="Title"/>
+            <Label x:Name="lblTextIncidencia" 
+                       StyleClass="titleAnimal"
+                       FontAttributes="Bold"
+                       FontSize="Title"/>
+
+
+            <ListView x:Name="lstVwSubtipos">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <Label Text="{Binding DescripcionEsp}"/>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
