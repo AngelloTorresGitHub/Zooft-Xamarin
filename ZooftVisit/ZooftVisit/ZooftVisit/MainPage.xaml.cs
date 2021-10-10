@@ -17,6 +17,10 @@ namespace ZooftVisit
     {
         AnimalViewModel animalSelect = new AnimalViewModel();
         public String labelScan = "";
+        public String salirAppTitle = "";
+        public String salirApp = "";
+        public String salirAppSI = "";
+        public String salirAppNO = "No";
 
         public MainPage()
         {
@@ -25,6 +29,20 @@ namespace ZooftVisit
             SeleccionarIdioma();
 
             btnEscaner.Clicked += BtnEscaner_Clicked;
+            btnSalir.Clicked += BtnSalir_Clicked;
+            
+        }
+
+        private async void BtnSalir_Clicked(object sender, EventArgs e)
+        {
+            // https://stackoverflow.com/questions/29257929/how-to-terminate-a-xamarin-application
+
+            bool salir = await DisplayAlert("", salirApp, salirAppSI, salirAppNO);
+
+            if (salir)
+            {
+                System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
+            }
             
         }
 
@@ -39,6 +57,9 @@ namespace ZooftVisit
                 lblSalir.Text = "Salir";
                 lblDiseng.Text = "Diseñado por:";
                 labelScan = "Escanea el Código QR";
+                salirAppTitle = "SALIR DE LA APLICACIÓN";
+                salirApp = "¿Desea salir de la aplicación?";
+                salirAppSI = "Si";
             }
             else
             {
@@ -47,6 +68,9 @@ namespace ZooftVisit
                 lblSalir.Text = "Exit";
                 lblDiseng.Text = "Designed by:";
                 labelScan = "Scan the QR Code";
+                salirAppTitle = "EXIT APPLICATION";
+                salirApp = "Do you want to exit the application?";
+                salirAppSI = "Yes";
             }
         }
 
