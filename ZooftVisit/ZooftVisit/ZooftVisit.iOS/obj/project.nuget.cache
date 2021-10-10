@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Hc0OZh6lzPiikVhZjF8OmO9K4B0bcRpahLDI5/SZb9zwKbiHWiT4xs+1OICkSaT/VE91T4Fy+08+aCkrtoWESg==",
+  "dgSpecHash": "c6OXel52+GZTCX7inXdYOW4N4nIo+rsuzFEDHJoBIRxeq1dFnCUjWd7EUnW3NzR7uQ/bCpdcwxGf6B1H4BKfOg==",
   "success": true,
   "projectFilePath": "C:\\DOC-ANGELLO\\cursoMoviles\\Zooft-Xamarin\\ZooftVisit\\ZooftVisit\\ZooftVisit.iOS\\ZooftVisit.iOS.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,11 @@
     "C:\\Users\\angel\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\xamarin.build.download\\0.4.7\\xamarin.build.download.0.4.7.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\xamarin.forms.googlemaps\\3.2.1\\xamarin.forms.googlemaps.3.2.1.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\xamarin.google.ios.maps\\2.5.0\\xamarin.google.ios.maps.2.5.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],

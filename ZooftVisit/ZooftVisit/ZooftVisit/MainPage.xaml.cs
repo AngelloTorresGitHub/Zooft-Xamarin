@@ -30,14 +30,21 @@ namespace ZooftVisit
 
             btnEscaner.Clicked += BtnEscaner_Clicked;
             btnSalir.Clicked += BtnSalir_Clicked;
+            btnLocalizar.Clicked += BtnLocalizar_Clicked;
             
+        }
+
+        private async void BtnLocalizar_Clicked(object sender, EventArgs e)
+        {
+            var localizarPage = new LocalizarPage();
+            await this.Navigation.PushAsync(localizarPage);
         }
 
         private async void BtnSalir_Clicked(object sender, EventArgs e)
         {
             // https://stackoverflow.com/questions/29257929/how-to-terminate-a-xamarin-application
 
-            bool salir = await DisplayAlert("", salirApp, salirAppSI, salirAppNO);
+            bool salir = await DisplayAlert(salirAppTitle, salirApp, salirAppSI, salirAppNO);
 
             if (salir)
             {

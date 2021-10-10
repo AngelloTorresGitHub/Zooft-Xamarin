@@ -16,3 +16,4 @@ C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\D
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\ZooftVisit.pdb
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\AnimalPAge.xaml.g.cs
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\IncidenciasPage.xaml.g.cs
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit\obj\Debug\netstandard2.0\LocalizarPage.xaml.g.cs

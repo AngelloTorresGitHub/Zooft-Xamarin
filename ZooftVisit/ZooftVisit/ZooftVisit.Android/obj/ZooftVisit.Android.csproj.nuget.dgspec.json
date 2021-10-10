@@ -148,6 +148,10 @@
               "target": "Package",
               "version": "[5.0.0.2012, )"
             },
+            "Xamarin.Forms.GoogleMaps": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
             "ZXing.Net.Mobile": {
               "target": "Package",
               "version": "[2.4.1, )"

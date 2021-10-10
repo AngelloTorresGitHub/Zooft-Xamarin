@@ -46,7 +46,8 @@ namespace ZooftVisit
 
         private async void BtnHome_ClickedAsync(object sender, EventArgs e)
         {
-            await this.Navigation.PopAsync();
+            //await this.Navigation.PopAsync(); // Atras en la pila de navegación
+            await this.Navigation.PopToRootAsync(); // Elimina todas las páginas de la pila de navegación, excepto la raíz
         }
 
         private void cargarObjeto(AnimalViewModel animalSelect)
