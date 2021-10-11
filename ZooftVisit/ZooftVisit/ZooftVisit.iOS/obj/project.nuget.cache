@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O1JvKDzWnRlbZThyBSTV/MTBbzAJO/QDX+9vj3U6FbnnXe/KAwxn+1D+7/H1YG8EP6XtphCB8B50tFGCNCfY8g==",
+  "dgSpecHash": "SsA6KAtxEL1ypjiGhBINEDPMl0MYeBxJtmI5NPmoSnbKdkGjBhSJBhb6b0rbNX2ZfvoNWHnhjyHCLN3/bG0bTQ==",
   "success": true,
   "projectFilePath": "C:\\DOC-ANGELLO\\cursoMoviles\\Zooft-Xamarin\\ZooftVisit\\ZooftVisit\\ZooftVisit.iOS\\ZooftVisit.iOS.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\angel\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\xamarin.forms\\5.0.0.2125\\xamarin.forms.5.0.0.2125.nupkg.sha512",
+    "C:\\Users\\angel\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2125\\xamarin.forms.maps.5.0.0.2125.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\zxing.net.mobile\\2.4.1\\zxing.net.mobile.2.4.1.nupkg.sha512",
     "C:\\Users\\angel\\.nuget\\packages\\zxing.net.mobile.forms\\2.4.1\\zxing.net.mobile.forms.2.4.1.nupkg.sha512"
   ],

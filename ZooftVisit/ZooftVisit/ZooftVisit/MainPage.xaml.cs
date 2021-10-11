@@ -9,7 +9,7 @@ using Xamarin.Forms;
 using ZooftVisit.Helpers;
 using ZooftVisit.Models;
 using ZooftVisit.ViewModels;
-//using ZXing.Net.Mobile.Forms;
+using ZXing.Net.Mobile.Forms;
 
 namespace ZooftVisit
 {
