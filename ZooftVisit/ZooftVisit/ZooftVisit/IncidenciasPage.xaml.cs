@@ -39,8 +39,8 @@ namespace ZooftVisit
                 lblTextIncidencia.Text = "Please select:";
             }
 
-            //lstVwSubtipos.BindingContext = subTiposViewModel;
-            //subTiposViewModel.GetSubtipos();
+            lstVwSubtipos.BindingContext = subTiposViewModel;
+            subTiposViewModel.GetSubtipos();
         }
 
         public IncidenciasPage(Animal animal)

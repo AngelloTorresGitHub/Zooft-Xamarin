@@ -17,9 +17,7 @@ namespace ZooftVisit
     {
         AnimalViewModel animalSelect = new AnimalViewModel();
         public String labelScan = "";
-        public String salirAppTitle = "";
-        public String salirApp = "";
-        public String salirAppSI = "";
+        public String salirAppTitle, salirApp, salirAppSI = "";
         public String salirAppNO = "No";
 
         public MainPage()
@@ -64,8 +62,8 @@ namespace ZooftVisit
                 lblSalir.Text = "Salir";
                 lblDiseng.Text = "Diseñado por:";
                 labelScan = "Escanea el Código QR";
-                salirAppTitle = "SALIR DE LA APLICACIÓN";
-                salirApp = "¿Desea salir de la aplicación?";
+                salirAppTitle = "Salir de la Aplicación";
+                salirApp = "¿Desea salir de la Aplicacíon?";
                 salirAppSI = "Si";
             }
             else
@@ -75,8 +73,8 @@ namespace ZooftVisit
                 lblSalir.Text = "Exit";
                 lblDiseng.Text = "Designed by:";
                 labelScan = "Scan the QR Code";
-                salirAppTitle = "EXIT APPLICATION";
-                salirApp = "Do you want to exit the application?";
+                salirAppTitle = "Exit application";
+                salirApp = "Do you want to exit the Application ? ";
                 salirAppSI = "Yes";
             }
         }
