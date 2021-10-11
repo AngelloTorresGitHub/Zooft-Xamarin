@@ -1,0 +1,2 @@
+Java.Lang.RuntimeException
+  Mensaje = Canvas: trying to draw too large(182987184bytes) bitmap.

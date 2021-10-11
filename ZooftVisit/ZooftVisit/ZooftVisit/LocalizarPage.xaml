@@ -8,14 +8,25 @@
              x:Class="ZooftVisit.LocalizarPage">
     <ContentPage.Content>
 
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <maps:Map x:Name="map"
+                  VerticalOptions="FillAndExpand"
+                  MapType="Satellite">
+            <x:Arguments>
+                <maps:MapSpan>
+                    <x:Arguments>
+                        <maps:Position>
+                            <x:Arguments>
+                                <x:Double>40.40934544720297</x:Double>
+                                <x:Double>-3.760961529100968</x:Double>
+                            </x:Arguments>
+                        </maps:Position>
+                        <x:Double>0.01</x:Double>
+                        <x:Double>0.01</x:Double>
+                    </x:Arguments>
+                </maps:MapSpan>
+            </x:Arguments>
+        </maps:Map>
 
-            <maps:Map x:Name="map"
-                      VerticalOptions="FillAndExpand">
-            </maps:Map>
-
-        </StackLayout>
-        
         <!--
         
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">

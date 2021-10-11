@@ -62,7 +62,7 @@ namespace ZooftVisit
                 lblSalir.Text = "Salir";
                 lblDiseng.Text = "Diseñado por:";
                 labelScan = "Escanea el Código QR";
-                salirAppTitle = "Salir de la Aplicación";
+                salirAppTitle = "SALIR DE LA APLICACIÓN";
                 salirApp = "¿Desea salir de la Aplicacíon?";
                 salirAppSI = "Si";
             }
@@ -73,7 +73,7 @@ namespace ZooftVisit
                 lblSalir.Text = "Exit";
                 lblDiseng.Text = "Designed by:";
                 labelScan = "Scan the QR Code";
-                salirAppTitle = "Exit application";
+                salirAppTitle = "EXIT APPLICATION";
                 salirApp = "Do you want to exit the Application ? ";
                 salirAppSI = "Yes";
             }
