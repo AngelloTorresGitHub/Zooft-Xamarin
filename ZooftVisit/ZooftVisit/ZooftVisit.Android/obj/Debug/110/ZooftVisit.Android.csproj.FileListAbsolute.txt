@@ -660,9 +660,6 @@ C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Andro
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Preference.pdb
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Tracing.Tracing.dll
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Tracing.Tracing.pdb
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\jl\760c2e96-aec0-4a74-bfdc-35b251c21d23.jar
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\1d50fb7e-221d-4976-b3fe-7aae332544ae.txt
-C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\87adac2c-b49b-4124-bb7b-c7944e086382.cfg
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\androidx\annotation\experimental\R.java
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\androidx\constraintlayout\widget\R.java
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\androidx\lifecycle\runtime\R.java
@@ -692,3 +689,6 @@ C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Andro
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\mono\androidx\preference\Preference_OnPreferenceClickListenerImplementor.java
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemReselectedListenerImplementor.java
 C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\android\src\mono\com\google\android\material\navigation\NavigationBarView_OnItemSelectedListenerImplementor.java
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\jl\b3f4f124-cfe1-4174-9ec6-2c6ebb49512e.jar
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\7746c2b2-76f0-465e-8f45-10df56a1738e.txt
+C:\DOC-ANGELLO\cursoMoviles\Zooft-Xamarin\ZooftVisit\ZooftVisit\ZooftVisit.Android\obj\Debug\110\androidx\proguard\d7977091-3149-4035-bd70-d877bbbf5641.cfg
