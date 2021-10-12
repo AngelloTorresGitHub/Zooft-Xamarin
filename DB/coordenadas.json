@@ -1,128 +1,222 @@
 [
   {
+    "id" : 0,
     "latitud" : 40.40934544720297,
     "longitud" : -3.760961529100968,
-    "tituloESP": "ZOO ACUARIUM",
-    "tituloENG": "ZOO ACUARIUM",
-    "tipo": "O"
+    "tituloEsp": "ZOO ACUARIUM",
+    "tituloIng": "ZOO ACUARIUM",
+    "tipo": "O",
+    "DescripcionEsp" : "Entrada Principal",
+    "DescripcionIng" : "Main entrance"
   },
   {
+    "id" : 1,
     "latitud" : 40.40849835437475,
     "longitud" : -3.762409049782553,
-    "tituloESP": "LOBO GRIS",
-    "tituloENG": "ARCTIC WOLF",
-    "tipo": "A"
+    "tituloEsp": "LOBO GRIS",
+    "tituloIng": "ARCTIC WOLF",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 2,
     "latitud" : 40.408625146152005,
     "longitud" : -3.762026685555514,
-    "tituloESP": "LINCE IBÉRICO",
-    "tituloENG": "IBERIAN LYNX",
-    "tipo": "A"
+    "tituloEsp": "LINCE IBÉRICO",
+    "tituloIng": "IBERIAN LYNX",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 3,
     "latitud" : 40.40979817802131,
     "longitud" : -3.762507313141042,
-    "tituloESP": "PANDAS GIGANTES",
-    "tituloENG": "GIANTS PANDAS",
-    "tipo": "A"
+    "tituloEsp": "PANDAS GIGANTES",
+    "tituloIng": "GIANTS PANDAS",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 4,
     "latitud" : 40.40996102019949,
     "longitud" : -3.7642011468175713,
-    "tituloESP": "BISONTE EUROPEO",
-    "tituloENG": "EUROPEAN BISON",
-    "tipo": "A"
+    "tituloEsp": "BISONTE EUROPEO",
+    "tituloIng": "EUROPEAN BISON",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 5,
     "latitud" : 40.4099994288488,
     "longitud" : -3.764179279932559,
-    "tituloESP": "OSO HORMIGUERO",
-    "tituloENG": "ANT-EATER",
-    "tipo": "A"
+    "tituloEsp": "OSO HORMIGUERO",
+    "tituloIng": "ANT-EATER",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 6,
     "latitud" : 40.410141934189,
     "longitud" : -3.76184139750137,
-    "tituloESP": "TAPIR AMAZÓNICO",
-    "tituloENG": "SOUTH AMERICAN TAPIR",
-    "tipo": "A"
+    "tituloEsp": "TAPIR AMAZÓNICO",
+    "tituloIng": "SOUTH AMERICAN TAPIR",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 7,
     "latitud" : 40.41083223870407,
     "longitud" : -3.7646630610279885,
-    "tituloESP": "TIGRE DE BENGALA",
-    "tituloENG": "BENGAL TIGER",
-    "tipo": "A"
+    "tituloEsp": "TIGRE DE BENGALA",
+    "tituloIng": "BENGAL TIGER",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 8,
     "latitud" : 40.410757461549984,
     "longitud" : -3.761478183296418,
-    "tituloESP": "PINGÜINO DE JACKASS",
-    "tituloENG": "JACKASS PENGUIN",
-    "tipo": "A"
+    "tituloEsp": "PINGÜINO DE JACKASS",
+    "tituloIng": "JACKASS PENGUIN",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 9,
     "latitud" : 40.407702082752195,
     "longitud" : -3.7645253179396803,
-    "tituloESP": "TIBURÓN GRIS",
-    "tituloENG": "SANDBAR SHARK",
-    "tipo": "A"
+    "tituloEsp": "TIBURÓN GRIS",
+    "tituloIng": "SANDBAR SHARK",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 10,
     "latitud" : 40.40835481437377,
     "longitud" : -3.7655280871783168,
-    "tituloESP": "IBIS SAGRADO",
-    "tituloENG": "SACRED IBIS",
-    "tipo": "A"
+    "tituloEsp": "IBIS SAGRADO",
+    "tituloIng": "SACRED IBIS",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 11,
     "latitud" : 40.40983709060606,
     "longitud" : -3.762526951556348,
-    "tituloESP": "LORIS ARCO IRIS",
-    "tituloENG": "RAINBOW LORIKEET",
-    "tipo": "A"
+    "tituloEsp": "LORIS ARCO IRIS",
+    "tituloIng": "RAINBOW LORIKEET",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 12,
     "latitud" : 40.40836032041865,
     "longitud" : -3.7653502618756445,
-    "tituloESP": "GUACAMAYO ROJO DE ALAS VERDES",
-    "tituloENG": "RED-AND-GREEN MACAW",
-    "tipo": "A"
+    "tituloEsp": "GUACAMAYO ROJO DE ALAS VERDES",
+    "tituloIng": "RED-AND-GREEN MACAW",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 13,
     "latitud" : 40.40931155147207,
     "longitud" : -3.7652958827811895,
-    "tituloESP": "NUTRIAS GIGANTES DE AMAZONAS",
-    "tituloENG": "GIANT OTTER",
-    "tipo": "A"
+    "tituloEsp": "NUTRIAS GIGANTES DE AMAZONAS",
+    "tituloIng": "GIANT OTTER",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 14,
     "latitud" : 40.409307563472815,
     "longitud" : -3.7665212291971546,
-    "tituloESP": "RINOCERONTE BLANCO",
-    "tituloENG": "WHITE RHINO",
-    "tipo": "A"
+    "tituloEsp": "RINOCERONTE BLANCO",
+    "tituloIng": "WHITE RHINO",
+    "tipo": "A",
+    "DescripcionEsp" : "Animal",
+    "DescripcionIng" : "Animal"
   },
   {
+    "id" : 15,
     "latitud" : 40.40731113824084,
     "longitud" : -3.7636985765881064,
-    "tituloESP": "RESTAURANTE KIBANDA",
-    "tituloENG": "KIBANDA RESTAURANT",
-    "tipo": "R"
+    "tituloEsp": "RESTAURANTE KIBANDA",
+    "tituloIng": "KIBANDA RESTAURANT",
+    "tipo": "R",
+    "DescripcionEsp" : "Zona de comidas",
+    "DescripcionIng" : "Food area"
   },
   {
+    "id" : 16,
     "latitud" : 40.409154919979166,
     "longitud" : -3.7651475920725956,
-    "tituloESP": "RESTAURANTE VIRUNGA",
-    "tituloENG": "KIBANVIRUNGADA RESTAURANT",
-    "tipo": "R"
+    "tituloEsp": "RESTAURANTE VIRUNGA",
+    "tituloIng": "KIBANVIRUNGADA RESTAURANT",
+    "tipo": "R",
+    "DescripcionEsp" : "Zona de comidas",
+    "DescripcionIng" : "Food area"
   },
   {
+    "id" : 17,
     "latitud" : 40.40952582191747,
     "longitud" : -3.7618174292304265,
-    "tituloESP": "RESTAURANTE PRINCIPAL",
-    "tituloENG": "MAIN RESTAURANT",
-    "tipo": "R"
+    "tituloEsp": "RESTAURANTE PRINCIPAL",
+    "tituloIng": "MAIN RESTAURANT",
+    "tipo": "R",
+    "DescripcionEsp" : "Zona de comidas",
+    "DescripcionIng" : "Food area"
+  },
+  {
+    "id" : 18,
+    "latitud" : 40.41019105857672,
+    "longitud" : -3.765207091804097,
+    "tituloEsp": "FOTO JIRAFA",
+    "tituloIng": "PHOTO GIRAFFE",
+    "tipo": "F",
+    "DescripcionEsp" : "Fotografía con animales",
+    "DescripcionIng" : "Photography with animals"
+  },
+  {
+    "id" : 19,
+    "latitud" : 40.41019105857672,
+    "longitud" : -3.765207091804097,
+    "tituloEsp": "FOTO AVES",
+    "tituloIng": "PHOTO BIRDS",
+    "tipo": "F",
+    "DescripcionEsp" : "Fotografía con animales",
+    "DescripcionIng" : "Photography with animals"
+  },
+  {
+    "id" : 20,
+    "latitud" : 40.40815295663349,
+    "longitud" :-3.765008470097159,
+    "tituloEsp": "FOTO AVES",
+    "tituloIng": "PHOTO BIRDS",
+    "tipo": "F",
+    "DescripcionEsp" : "Fotografía con animales",
+    "DescripcionIng" : "Photography with animals"
+  },
+  {
+    "id" : 21,
+    "latitud" : 40.40804705692474,
+    "longitud" :-3.765817383937431,
+    "tituloEsp": "FOTO DELFINES",
+    "tituloIng": "PHOTO DOLPHINS",
+    "tipo": "F",
+    "DescripcionEsp" : "Fotografía con animales",
+    "DescripcionIng" : "Photography with animals"
   }
 ]

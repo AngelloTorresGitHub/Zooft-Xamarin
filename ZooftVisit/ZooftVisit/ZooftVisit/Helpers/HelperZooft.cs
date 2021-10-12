@@ -9,7 +9,7 @@ using ZooftVisit.Models;
 
 namespace ZooftVisit.Helpers
 {
-    class HelperAnimal
+    public class HelperZooft
     {
         private HttpClient CrearCliente()
         {
@@ -38,6 +38,24 @@ namespace ZooftVisit.Helpers
             }
 
             return animal;
+        }
+
+        // Trea todas las coordenadas
+        public async Task<List<Coordenada>> GetCoordenadas()
+        {
+            List<Coordenada> listCoordenadas = null;
+            var uri = new Uri(String.Format("https://zooft-10490-default-rtdb.firebaseio.com/coordenadas.json", String.Empty));
+
+            HttpClient httpClient = CrearCliente();
+
+            var respuesta = await httpClient.GetAsync(uri);
+
+            if (respuesta.IsSuccessStatusCode)
+            {
+                var contenido = await respuesta.Content.ReadAsStringAsync();
+                listCoordenadas = JsonConvert.DeserializeObject<List<Coordenada>>(contenido);
+            }
+            return listCoordenadas;
         }
     }
 }

@@ -40,17 +40,45 @@ namespace ZooftVisit.Helpers
                     DescripcionEsp = dato.Object.DescripcionEsp,
                     DescripcionIng = dato.Object.DescripcionIng
                 }).ToList();
-
-            //return (await firebase
-            //    .Child("subTipos")
-            //    .OnceAsync<SubTipo>()).Select(dato => new SubTipo
-            //    {
-            //        Id = dato.Object.Id,
-            //        IdDepartamento = dato.Object.IdDepartamento,
-            //        Nivel = dato.Object.Nivel,
-            //        DescripcionEsp = dato.Object.DescripcionEsp,
-            //        DescripcionIng = dato.Object.DescripcionIng
-            //    }).ToList();         
         }
+
+        public async Task<List<Coordenada>> GetCoordenadas()
+        {
+            return (await firebase
+                .Child("coordenadas")
+                .OnceAsync<Coordenada>()).Select(dato => new Coordenada
+                {
+                    Id = dato.Object.Id,
+                    Latitud = dato.Object.Latitud,
+                    longitud = dato.Object.longitud,
+                    Tipo = dato.Object.Tipo,
+                    TituloEsp = dato.Object.TituloEsp,
+                    TituloIng = dato.Object.TituloIng,
+                    DescripcionEsp = dato.Object.DescripcionEsp,
+                    DescripcionIng = dato.Object.DescripcionIng
+                }).ToList();
+        }
+
+        //public async List<Coordenada> GetCoordenadas()
+        //{
+        //    List<Coordenada> listCoordenadas = new List<Coordenada>();
+
+        //     await firebase.Child("coordenadas").OnceAsync<Coordenada>().Select();
+        //    //return (firebase
+        //    //    .Child("coordenadas")
+        //    //    .Select(dato => new Coordenada
+        //    //    {
+        //    //        Id = dato.Object.Id,
+        //    //        Latitud = dato.Object.Latitud,
+        //    //        longitud = dato.Object.longitud,
+        //    //        Tipo = dato.Object.Tipo,
+        //    //        TituloEsp = dato.Object.TituloEsp,
+        //    //        TituloIng = dato.Object.TituloIng,
+        //    //        DescripcionEsp = dato.Object.DescripcionEsp,
+        //    //        DescripcionIng = dato.Object.DescripcionIng
+        //    //    }).ToList();
+
+        //    return listCoordenadas;
+        //}
     }
 }

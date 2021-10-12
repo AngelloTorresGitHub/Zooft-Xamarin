@@ -13,7 +13,7 @@ using ZooftVisit.ViewModels;
 
 namespace ZooftVisit
 {
-    //[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class AnimalPage : ContentPage
     {
         private AnimalViewModel animalSelect;

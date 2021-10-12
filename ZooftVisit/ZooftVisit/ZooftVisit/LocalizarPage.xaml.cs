@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,85 +8,65 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
+using ZooftVisit.Helpers;
+using ZooftVisit.Models;
+using ZooftVisit.ViewModels;
 
 namespace ZooftVisit
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LocalizarPage : ContentPage
     {
+        CoordenadaViewModel coordenadaViewModel = new CoordenadaViewModel();
+        public string lang = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
+
         public LocalizarPage()
-        {            InitializeComponent();
+        {
+            // https://xamarinlatino.com/google-maps-f%C3%A1cil-en-xamarin-forms-7b84d474b3f1
+            // Usar el package Xamarin.Forms.Maps de Microsoft
 
-            var pin = new Pin()
-            {
-                Position = new Position(40.40934544720297, -3.760961529100968),
-                Label = "ZOO ACUARIUM"
-            };
-            map.Pins.Add(pin);
+            InitializeComponent();
 
-
-            //GenerarUbicacionesAsync();
-
-
-            //var defaultPin = new Pin
+            //Pin pin = new Pin()
             //{
-            //    Type = PinType.Place,
-            //    Label = "ZOO ACUARIUM",
-            //    Address = "Here",
-            //    Position = new Position(40.40934544720297, -3.760961529100968)
+            //    Position = new Position(40.40934544720297, -3.760961529100968),
+            //    Label = "ZOO ACUARIUM"
             //};
-            //map.Pins.Add(defaultPin);
+            //map.Pins.Add(pin);
+
+
+            GenerarUbicaciones();
         }
 
-        //private async Task GenerarUbicacionesAsync()
-        //{
+        public void GenerarUbicaciones()
+        {
+            List<Pin> pins = new List<Pin>();        
 
-        //    try
-        //    {
-        //        var lat = 47.673988;
-        //        var lon = -122.121513;
+            foreach (Coordenada coord in coordenadaViewModel.GetCoordenadas())
+            {
+                Pin pin = new Pin()
+                {
+                    Position = new Position(Double.Parse(coord.Latitud.ToString()), Double.Parse(coord.longitud.ToString()))
+                };
 
-        //        var placemarks = await Geocoding.GetPlacemarksAsync(lat, lon);
+                if (lang == "es")
+                {
+                    pin.Label = coord.TituloEsp.ToString();
+                    pin.Address = coord.DescripcionEsp.ToString();
+                }
+                else
+                {
+                    pin.Label = coord.TituloIng.ToString();
+                    pin.Address = coord.DescripcionIng.ToString();
+                }
 
-        //        var placemark = placemarks?.FirstOrDefault();
-        //        if (placemark != null)
-        //        {
-        //            var geocodeAddress =
-        //                $"AdminArea:       {placemark.AdminArea}\n" +
-        //                $"CountryCode:     {placemark.CountryCode}\n" +
-        //                $"CountryName:     {placemark.CountryName}\n" +
-        //                $"FeatureName:     {placemark.FeatureName}\n" +
-        //                $"Locality:        {placemark.Locality}\n" +
-        //                $"PostalCode:      {placemark.PostalCode}\n" +
-        //                $"SubAdminArea:    {placemark.SubAdminArea}\n" +
-        //                $"SubLocality:     {placemark.SubLocality}\n" +
-        //                $"SubThoroughfare: {placemark.SubThoroughfare}\n" +
-        //                $"Thoroughfare:    {placemark.Thoroughfare}\n";
+                pins.Add(pin);
+            }
 
-        //            Console.WriteLine(geocodeAddress);
-        //        }
-        //    }
-        //    catch (FeatureNotSupportedException fnsEx)
-        //    {
-        //        // Feature not supported on device
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        // Handle exception that may have occurred in geocoding
-        //    }
-        //var map = new Map(MapSpan.FromCenterAndRadius(new Position(37, -122), Distance.FromMiles(10)));
-
-        //var pin = new Pin()
-        //{
-        //    Position = new Position(37, -122),
-        //    Label = "Some Pin!"
-        //};
-        //map.Pins.Add(pin);
-
-        //var cp = new ContentPage
-        //{
-        //    Content = map,
-        //};
-        //}
+            foreach (Pin pin in pins)
+            {
+                map.Pins.Add(pin);
+            }
+        }
     }
 }

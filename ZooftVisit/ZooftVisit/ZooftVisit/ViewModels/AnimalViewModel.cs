@@ -8,9 +8,9 @@ using ZooftVisit.ViewModels.Base;
 
 namespace ZooftVisit.ViewModels
 {
-  public class AnimalViewModel: ViewModelBase
+  public class AnimalViewModel : ViewModelBase
     {
-        HelperAnimal helper = new HelperAnimal();
+        HelperZooft helper = new HelperZooft();
 
         private Animal _Animal;
 
