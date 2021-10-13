@@ -17,15 +17,19 @@ namespace ZooftVisit
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LocalizarPage : ContentPage
     {
-        CoordenadaViewModel coordenadaViewModel = new CoordenadaViewModel();
+        private CoordenadaViewModel coordenadas;
+        public List<Coordenada> listCoordenadas = new List<Coordenada>();
         public string lang = CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
 
-        public LocalizarPage()
+        public LocalizarPage(CoordenadaViewModel coordenadaViewModel)
         {
             // https://xamarinlatino.com/google-maps-f%C3%A1cil-en-xamarin-forms-7b84d474b3f1
             // Usar el package Xamarin.Forms.Maps de Microsoft
 
+
             InitializeComponent();
+
+            this.coordenadas = coordenadaViewModel;
 
             //Pin pin = new Pin()
             //{
@@ -34,30 +38,52 @@ namespace ZooftVisit
             //};
             //map.Pins.Add(pin);
 
-
+            CargarObjetos(coordenadas);
             GenerarUbicaciones();
+        }
+
+        private void CargarObjetos(CoordenadaViewModel coordenadas)
+        {
+            foreach (var item in coordenadas.Coordenadas.ToList())
+            {
+                Coordenada coordenada = new Coordenada()
+                {
+                    Id = item.Id,
+                    Latitud = item.Latitud,
+                    longitud = item.longitud,
+                    Tipo = item.Tipo,
+                    TituloEsp = item.TituloEsp,
+                    TituloIng = item.TituloIng,
+                    DescripcionEsp = item.DescripcionEsp,
+                    DescripcionIng = item.DescripcionIng
+                };
+
+                listCoordenadas.Add(coordenada);
+            }
         }
 
         public void GenerarUbicaciones()
         {
-            List<Pin> pins = new List<Pin>();        
+            var pins = new List<Pin>();
 
-            foreach (Coordenada coord in coordenadaViewModel.GetCoordenadas())
+            for (int i = 0; i < listCoordenadas.Count; i++)
             {
                 Pin pin = new Pin()
                 {
-                    Position = new Position(Double.Parse(coord.Latitud.ToString()), Double.Parse(coord.longitud.ToString()))
+                    Position = new Position(
+                        Double.Parse(listCoordenadas[i].Latitud.ToString()),
+                        Double.Parse(listCoordenadas[i].longitud.ToString()))
                 };
 
                 if (lang == "es")
                 {
-                    pin.Label = coord.TituloEsp.ToString();
-                    pin.Address = coord.DescripcionEsp.ToString();
+                    pin.Label = listCoordenadas[i].TituloEsp.ToString();
+                    pin.Address = listCoordenadas[i].DescripcionEsp.ToString();
                 }
                 else
                 {
-                    pin.Label = coord.TituloIng.ToString();
-                    pin.Address = coord.DescripcionIng.ToString();
+                    pin.Label = listCoordenadas[i].TituloIng.ToString();
+                    pin.Address = listCoordenadas[i].DescripcionIng.ToString();
                 }
 
                 pins.Add(pin);

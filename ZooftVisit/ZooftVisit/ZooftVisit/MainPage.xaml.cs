@@ -16,6 +16,7 @@ namespace ZooftVisit
     public partial class MainPage : ContentPage
     {
         AnimalViewModel animalSelect = new AnimalViewModel();
+        CoordenadaViewModel coordenadas = new CoordenadaViewModel();
         public String labelScan = "";
         public String salirAppTitle, salirApp, salirAppSI = "";
         public String salirAppNO = "No";
@@ -34,8 +35,17 @@ namespace ZooftVisit
 
         private async void BtnLocalizar_Clicked(object sender, EventArgs e)
         {
-            var localizarPage = new LocalizarPage();
-            await this.Navigation.PushAsync(localizarPage);
+            try
+            {
+                coordenadas.GetCoordenadas();
+                var localizarPage = new LocalizarPage(coordenadas);
+                await this.Navigation.PushAsync(localizarPage);
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", ex.Message.ToString(), "Ok");
+            }
+            
         }
 
         private async void BtnSalir_Clicked(object sender, EventArgs e)

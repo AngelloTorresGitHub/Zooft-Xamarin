@@ -44,7 +44,9 @@ namespace ZooftVisit.Helpers
         public async Task<List<Coordenada>> GetCoordenadas()
         {
             List<Coordenada> listCoordenadas = null;
-            var uri = new Uri(String.Format("https://zooft-10490-default-rtdb.firebaseio.com/coordenadas.json", String.Empty));
+
+            String peticion = "https://zooft-10490-default-rtdb.firebaseio.com/coordenadas.json/";
+            var uri = new Uri(String.Format(peticion, String.Empty));
 
             HttpClient httpClient = CrearCliente();
 

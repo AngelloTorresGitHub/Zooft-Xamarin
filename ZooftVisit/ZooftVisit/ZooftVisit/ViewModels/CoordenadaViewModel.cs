@@ -13,6 +13,8 @@ namespace ZooftVisit.ViewModels
     {
         HelperZooft helper = new HelperZooft();
 
+        public CoordenadaViewModel(){}
+
         public ObservableCollection<Coordenada> _Coordenadas;
 
         public ObservableCollection<Coordenada> Coordenadas
@@ -28,16 +30,13 @@ namespace ZooftVisit.ViewModels
             }
         }
 
-        public List<Coordenada> GetCoordenadas()
+        public void GetCoordenadas()
         {
-            List<Coordenada> coordenadas = new List<Coordenada>();
-
-            Task.Run(async () => {
-                coordenadas = await helper.GetCoordenadas();
+            Task.Run(async () =>
+            {
+               List<Coordenada> coordenadas = await helper.GetCoordenadas();
                 this.Coordenadas = new ObservableCollection<Coordenada>(coordenadas);
             });
-
-            return coordenadas;
         }
     }
 }
